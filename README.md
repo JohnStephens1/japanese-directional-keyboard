@@ -4,7 +4,7 @@
 1. [What it is](#what-it-is)
 2. [How it works](#how-it-works)
    1. [Some important shortcuts](#some-important-shortcuts)
-3. [How to Install](#how-to-install)
+3. [How to install](#how-to-install)
 5. [Support](#support)
    1. [Donations](#donations)
 
