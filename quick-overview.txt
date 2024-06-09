@@ -1,0 +1,23 @@
+quick overview:
+
+modifiers:
+w -> u
+d -> e
+s -> o
+a -> i
+
+q -> soft
+e -> hard
+
+special:
+xた -> っ
+
+
+others:
+NumLock on/off -> hiragana/katakana toggle
+Ctrl + NumLock -> conversion toggle
+Ctrl + Escape -> exit application
+
+
+full documentation at:
+https://github.com/JohnStephens1/japanese-directional-keyboard
