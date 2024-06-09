@@ -1,6 +1,6 @@
 ﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
@@ -45,169 +45,169 @@ NumpadIns::わ ;0
 
 ;base mod
 :*?:さw::
-Send す
+SendEvent す
 return
 
 :*?:かw::
-Send く
+SendEvent く
 return
 
 :*?:あw::
-Send う
+SendEvent う
 return
 
 :*?:はw::
-Send ふ
+SendEvent ふ
 return
 
 :*?:なw::
-Send ぬ
+SendEvent ぬ
 return
 
 :*?:たw::
-Send つ
+SendEvent つ
 return
 
 :*?:らw::
-Send る
+SendEvent る
 return
 
 :*?:やw::
-Send ゆ
+SendEvent ゆ
 return
 
 :*?:まw::
-Send む
+SendEvent む
 return
 
 :*?:わw::
-Send ー
+SendEvent ー
 return
 
 
 :*?:さd::
-Send せ
+SendEvent せ
 return
 
 :*?:かd::
-Send け
+SendEvent け
 return
 
 ;to allow proper use using an ime without conflicts
 #InputLevel 0
 :*?:あd::
-Send え
+SendEvent え
 return
 #InputLevel 5
 
 :*?:はd::
-Send へ
+SendEvent へ
 return
 
 :*?:なd::
-Send ね
+SendEvent ね
 return
 
 :*?:たd::
-Send て
+SendEvent て
 return
 
 :*?:らd::
-Send れ
+SendEvent れ
 return
 
 :*?:やd::
-Send ）
+SendEvent ）
 return
 
 :*?:まd::
-Send め
+SendEvent め
 return
 
 :*?:わd::
-Send ー
+SendEvent ー
 return
 
 
 :*?:さs::
-Send そ
+SendEvent そ
 return
 
 :*?:かs::
-Send こ
+SendEvent こ
 return
 
 :*?:あs::
-Send お
+SendEvent お
 return
 
 :*?:はs::
-Send ほ
+SendEvent ほ
 return
 
 :*?:なs::
-Send の
+SendEvent の
 return
 
 :*?:たs::
-Send と
+SendEvent と
 return
 
 :*?:らs::
-Send ろ
+SendEvent ろ
 return
 
 :*?:やs::
-Send よ
+SendEvent よ
 return
 
 :*?:まs::
-Send も
+SendEvent も
 return
 
 :*?:わs::
-Send を
+SendEvent を
 return
 
 
 :*?:さa::
-Send し
+SendEvent し
 return
 
 :*?:かa::
-Send き
+SendEvent き
 return
 
 :*?:あa::
-Send い
+SendEvent い
 return
 
 :*?:はa::
-Send ひ
+SendEvent ひ
 return
 
 :*?:なa::
-Send に
+SendEvent に
 return
 
 :*?:たa::
-Send ち
+SendEvent ち
 return
 
 :*?:らa::
-Send り
+SendEvent り
 return
 
 :*?:やa::
-Send （
+SendEvent （
 return
 
 :*?:まa::
-Send み
+SendEvent み
 return
 
 :*?:わa::
-Send ～
+SendEvent ～
 return
 
 
@@ -215,316 +215,316 @@ return
 #InputLevel 4
 ;soft
 :*?:qさ::
-Send ざ
+SendEvent ざ
 return
 
 :*?:qか::
-Send が
+SendEvent が
 return
 
 :*?:qあ::
-Send ぁ
+SendEvent ぁ
 return
 
 :*?:qは::
-Send ば
+SendEvent ば
 return
 
 :*?:qた::
-Send だ
+SendEvent だ
 return
 
 :*?:qや::
-Send ゃ
+SendEvent ゃ
 return
 
 :*?:qわ::
-Send ゎ
+SendEvent ゎ
 return
 
 
 :*?:ざw::
-Send ず
+SendEvent ず
 return
 
 :*?:がw::
-Send ぐ
+SendEvent ぐ
 return
 
 :*?:ぁw::
-Send ぅ
+SendEvent ぅ
 return
 
 :*?:ばw::
-Send ぶ
+SendEvent ぶ
 return
 
 :*?:だw::
-Send づ
+SendEvent づ
 return
 
 :*?:ゃw::
-Send ゅ
+SendEvent ゅ
 return
 
 
 :*?:ざd::
-Send ぜ
+SendEvent ぜ
 return
 
 :*?:がd::
-Send げ
+SendEvent げ
 return
 
 :*?:ぁd::
-Send ぇ
+SendEvent ぇ
 return
 
 :*?:ばd::
-Send べ
+SendEvent べ
 return
 
 :*?:だd::
-Send で
+SendEvent で
 return
 
 
 :*?:ざs::
-Send ぞ
+SendEvent ぞ
 return
 
 :*?:がs::
-Send ご
+SendEvent ご
 return
 
 :*?:ぁs::
-Send ぉ
+SendEvent ぉ
 return
 
 :*?:ばs::
-Send ぼ
+SendEvent ぼ
 return
 
 :*?:だs::
-Send ど
+SendEvent ど
 return
 
 :*?:ゃs::
-Send ょ
+SendEvent ょ
 return
 
 
 :*?:ざa::
-Send じ
+SendEvent じ
 return
 
 :*?:がa::
-Send ぎ
+SendEvent ぎ
 return
 
 :*?:ぁa::
-Send ぃ
+SendEvent ぃ
 return
 
 :*?:ばa::
-Send び
+SendEvent び
 return
 
 :*?:だa::
-Send ぢ
+SendEvent ぢ
 return
 
 
 
 ;hard
 :*?:eは::
-Send ぱ
+SendEvent ぱ
 return
 
 :*?:えは::
-Send ぱ
+SendEvent ぱ
 return
 
 
 :*?:ぱw::
-Send ぷ
+SendEvent ぷ
 return
 
 :*?:ぱd::
-Send ぺ
+SendEvent ぺ
 return
 
 :*?:ぱs::
-Send ぽ
+SendEvent ぽ
 return
 
 :*?:ぱa::
-Send ぴ
+SendEvent ぴ
 return
 
 
 
 ;combinations
 :*?:さy::
-Send しゃ
+SendEvent しゃ
 return
 
 :*?:すy::
-Send しゅ
+SendEvent しゅ
 return
 
 :*?:そy::
-Send しょ
+SendEvent しょ
 return
 
 
 :*?:ざy::
-Send じゃ
+SendEvent じゃ
 return
 
 :*?:ずy::
-Send じゅ
+SendEvent じゅ
 return
 
 :*?:ぞy::
-Send じょ
+SendEvent じょ
 return
 
 
 :*?:かy::
-Send きゃ
+SendEvent きゃ
 return
 
 :*?:くy::
-Send きゅ
+SendEvent きゅ
 return
 
 :*?:こy::
-Send きょ
+SendEvent きょ
 return
 
 
 :*?:がy::
-Send ぎゃ
+SendEvent ぎゃ
 return
 
 :*?:ぐy::
-Send ぎゅ
+SendEvent ぎゅ
 return
 
 :*?:ごy::
-Send ぎょ
+SendEvent ぎょ
 return
 
 
 :*?:はy::
-Send ひゃ
+SendEvent ひゃ
 return
 
 :*?:ふy::
-Send ひゅ
+SendEvent ひゅ
 return
 
 :*?:ほy::
-Send ひょ
+SendEvent ひょ
 return
 
 
 :*?:ばy::
-Send びゃ
+SendEvent びゃ
 return
 
 :*?:ぶy::
-Send びゅ
+SendEvent びゅ
 return
 
 :*?:ぼy::
-Send びょ
+SendEvent びょ
 return
 
 
 :*?:ぱy::
-Send ぴゃ
+SendEvent ぴゃ
 return
 
 :*?:ぷy::
-Send ぴゅ
+SendEvent ぴゅ
 return
 
 :*?:ぽy::
-Send ぴょ
+SendEvent ぴょ
 return
 
 
 :*?:なy::
-Send にゃ
+SendEvent にゃ
 return
 
 :*?:ぬy::
-Send にゅ
+SendEvent にゅ
 return
 
 :*?:のy::
-Send にょ
+SendEvent にょ
 return
 
 
 :*?:たy::
-Send ちゃ
+SendEvent ちゃ
 return
 
 :*?:つy::
-Send ちゅ
+SendEvent ちゅ
 return
 
 :*?:とy::
-Send ちょ
+SendEvent ちょ
 return
 
 
 :*?:だy::
-Send ぢゃ
+SendEvent ぢゃ
 return
 
 :*?:づy::
-Send ぢゅ
+SendEvent ぢゅ
 return
 
 :*?:どy::
-Send ぢょ
+SendEvent ぢょ
 return
 
 
 :*?:らy::
-Send りゃ
+SendEvent りゃ
 return
 
 :*?:るy::
-Send りゅ
+SendEvent りゅ
 return
 
 :*?:ろy::
-Send りょ
+SendEvent りょ
 return
 
 
 :*?:まy::
-Send みゃ
+SendEvent みゃ
 return
 
 :*?:むy::
-Send みゅ
+SendEvent みゅ
 return
 
 :*?:もy::
-Send みょ
+SendEvent みょ
 return
 
 
 
 ;others
 :*?:xた::
-Send っ
+SendEvent っ
 return
 
 
@@ -549,169 +549,169 @@ Numpad0::ワ
 
 
 :*?:サw::
-Send ス
+SendEvent ス
 return
 
 :*?:カw::
-Send ク
+SendEvent ク
 return
 
 :*?:アw::
-Send ウ
+SendEvent ウ
 return
 
 :*?:ハw::
-Send フ
+SendEvent フ
 return
 
 :*?:ナw::
-Send ヌ
+SendEvent ヌ
 return
 
 :*?:タw::
-Send ツ
+SendEvent ツ
 return
 
 :*?:ラw::
-Send ル
+SendEvent ル
 return
 
 :*?:ヤw::
-Send ユ
+SendEvent ユ
 return
 
 :*?:マw::
-Send ム
+SendEvent ム
 return
 
 :*?:ワw::
-Send ー
+SendEvent ー
 return
 
 
 :*?:サd::
-Send セ
+SendEvent セ
 return
 
 :*?:カd::
-Send ケ
+SendEvent ケ
 return
 
 ;to allow proper use using an ime without conflicts
 #InputLevel 0
 :*?:アd::
-Send エ
+SendEvent エ
 return
 #InputLevel 5
 
 :*?:ハd::
-Send ヘ
+SendEvent ヘ
 return
 
 :*?:ナd::
-Send ネ
+SendEvent ネ
 return
 
 :*?:タd::
-Send テ
+SendEvent テ
 return
 
 :*?:ラd::
-Send レ
+SendEvent レ
 return
 
 :*?:ヤd::
-Send ）
+SendEvent ）
 return
 
 :*?:マd::
-Send メ
+SendEvent メ
 return
 
 :*?:ワd::
-Send ー
+SendEvent ー
 return
 
 
 :*?:サs::
-Send ソ
+SendEvent ソ
 return
 
 :*?:カs::
-Send コ
+SendEvent コ
 return
 
 :*?:アs::
-Send オ
+SendEvent オ
 return
 
 :*?:ハs::
-Send ホ
+SendEvent ホ
 return
 
 :*?:ナs::
-Send ノ
+SendEvent ノ
 return
 
 :*?:タs::
-Send ト
+SendEvent ト
 return
 
 :*?:ラs::
-Send ロ
+SendEvent ロ
 return
 
 :*?:ヤs::
-Send ヨ
+SendEvent ヨ
 return
 
 :*?:マs::
-Send モ
+SendEvent モ
 return
 
 :*?:ワs::
-Send ヲ
+SendEvent ヲ
 return
 
 
 :*?:サa::
-Send シ
+SendEvent シ
 return
 
 :*?:カa::
-Send キ
+SendEvent キ
 return
 
 :*?:アa::
-Send イ
+SendEvent イ
 return
 
 :*?:ハa::
-Send ヒ
+SendEvent ヒ
 return
 
 :*?:ナa::
-Send ニ
+SendEvent ニ
 return
 
 :*?:タa::
-Send チ
+SendEvent チ
 return
 
 :*?:ラa::
-Send リ
+SendEvent リ
 return
 
 :*?:ヤa::
-Send （
+SendEvent （
 return
 
 :*?:マa::
-Send ミ
+SendEvent ミ
 return
 
 :*?:ワa::
-Send ～
+SendEvent ～
 return
 
 
@@ -719,316 +719,316 @@ return
 #InputLevel 4
 ;soft
 :*?:qサ::
-Send ザ
+SendEvent ザ
 return
 
 :*?:qカ::
-Send ガ
+SendEvent ガ
 return
 
 :*?:qア::
-Send ァ
+SendEvent ァ
 return
 
 :*?:qハ::
-Send バ
+SendEvent バ
 return
 
 :*?:qタ::
-Send ダ
+SendEvent ダ
 return
 
 :*?:qヤ::
-Send ャ
+SendEvent ャ
 return
 
 :*?:qワ::
-Send ヮ
+SendEvent ヮ
 return
 
 
 :*?:ザw::
-Send ズ
+SendEvent ズ
 return
 
 :*?:ガw::
-Send グ
+SendEvent グ
 return
 
 :*?:ァw::
-Send ゥ
+SendEvent ゥ
 return
 
 :*?:バw::
-Send ぶ
+SendEvent ぶ
 return
 
 :*?:ダw::
-Send ヅ
+SendEvent ヅ
 return
 
 :*?:ャw::
-Send ュ
+SendEvent ュ
 return
 
 
 :*?:ザd::
-Send ゼ
+SendEvent ゼ
 return
 
 :*?:ガd::
-Send ゲ
+SendEvent ゲ
 return
 
 :*?:ァd::
-Send ェ
+SendEvent ェ
 return
 
 :*?:バd::
-Send ベ
+SendEvent ベ
 return
 
 :*?:ダd::
-Send デ
+SendEvent デ
 return
 
 
 :*?:ザs::
-Send ゾ
+SendEvent ゾ
 return
 
 :*?:ガs::
-Send ゴ
+SendEvent ゴ
 return
 
 :*?:ァs::
-Send ォ
+SendEvent ォ
 return
 
 :*?:バs::
-Send ボ
+SendEvent ボ
 return
 
 :*?:ダs::
-Send ド
+SendEvent ド
 return
 
 :*?:ゃs::
-Send ョ
+SendEvent ョ
 return
 
 
 :*?:ザa::
-Send ジ
+SendEvent ジ
 return
 
 :*?:ガa::
-Send ギ
+SendEvent ギ
 return
 
 :*?:ァa::
-Send ィ
+SendEvent ィ
 return
 
 :*?:バa::
-Send ビ
+SendEvent ビ
 return
 
 :*?:ダa::
-Send ヂ
+SendEvent ヂ
 return
 
 
 
 ;hard
 :*?:eハ::
-Send パ
+SendEvent パ
 return
 
 :*?:えハ::
-Send パ
+SendEvent パ
 return
 
 
 :*?:パw::
-Send プ
+SendEvent プ
 return
 
 :*?:パd::
-Send ペ
+SendEvent ペ
 return
 
 :*?:パs::
-Send ポ
+SendEvent ポ
 return
 
 :*?:パa::
-Send ピ
+SendEvent ピ
 return
 
 
 
 ;combinations
 :*?:サy::
-Send シャ
+SendEvent シャ
 return
 
 :*?:スy::
-Send シュ
+SendEvent シュ
 return
 
 :*?:ソy::
-Send ショ
+SendEvent ショ
 return
 
 
 :*?:ザy::
-Send ジャ
+SendEvent ジャ
 return
 
 :*?:ズy::
-Send ジュ
+SendEvent ジュ
 return
 
 :*?:ゾy::
-Send ジョ
+SendEvent ジョ
 return
 
 
 :*?:カy::
-Send キャ
+SendEvent キャ
 return
 
 :*?:クy::
-Send キュ
+SendEvent キュ
 return
 
 :*?:コy::
-Send キョ
+SendEvent キョ
 return
 
 
 :*?:ガy::
-Send ギャ
+SendEvent ギャ
 return
 
 :*?:グy::
-Send ギュ
+SendEvent ギュ
 return
 
 :*?:ゴy::
-Send ギョ
+SendEvent ギョ
 return
 
 
 :*?:ハy::
-Send ヒャ
+SendEvent ヒャ
 return
 
 :*?:フy::
-Send ヒュ
+SendEvent ヒュ
 return
 
 :*?:ホy::
-Send ヒョ
+SendEvent ヒョ
 return
 
 
 :*?:バy::
-Send ビャ
+SendEvent ビャ
 return
 
 :*?:ブy::
-Send ビュ
+SendEvent ビュ
 return
 
 :*?:ボy::
-Send ビョ
+SendEvent ビョ
 return
 
 
 :*?:パy::
-Send ピャ
+SendEvent ピャ
 return
 
 :*?:プy::
-Send ピュ
+SendEvent ピュ
 return
 
 :*?:ポy::
-Send ピョ
+SendEvent ピョ
 return
 
 
 :*?:ナy::
-Send ニャ
+SendEvent ニャ
 return
 
 :*?:ヌy::
-Send ニュ
+SendEvent ニュ
 return
 
 :*?:ノy::
-Send ニョ
+SendEvent ニョ
 return
 
 
 :*?:タy::
-Send チャ
+SendEvent チャ
 return
 
 :*?:ツy::
-Send チュ
+SendEvent チュ
 return
 
 :*?:トy::
-Send チョ
+SendEvent チョ
 return
 
 
 :*?:ダy::
-Send ヂャ
+SendEvent ヂャ
 return
 
 :*?:ヅy::
-Send ヂュ
+SendEvent ヂュ
 return
 
 :*?:ドy::
-Send ヂョ
+SendEvent ヂョ
 return
 
 
 :*?:ラy::
-Send リャ
+SendEvent リャ
 return
 
 :*?:ルy::
-Send リュ
+SendEvent リュ
 return
 
 :*?:ロy::
-Send リョ
+SendEvent リョ
 return
 
 
 :*?:マy::
-Send ミャ
+SendEvent ミャ
 return
 
 :*?:ムy::
-Send ミュ
+SendEvent ミュ
 return
 
 :*?:モy::
-Send ミョ
+SendEvent ミョ
 return
 
 
 
 ;others
 :*?:xタ::
-Send ッ
+SendEvent ッ
 return
 
 
