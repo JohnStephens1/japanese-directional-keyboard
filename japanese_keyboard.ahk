@@ -93,9 +93,12 @@ return
 Send け
 return
 
+;to allow proper use using an ime without conflicts
+#InputLevel 0
 :*?:あd::
 Send え
 return
+#InputLevel 5
 
 :*?:はd::
 Send へ
@@ -338,6 +341,10 @@ return
 Send ぱ
 return
 
+:*?:えは::
+Send ぱ
+return
+
 
 :*?:ぱw::
 Send ぷ
@@ -524,6 +531,7 @@ return
 
 
 ;the katakana ,-,
+;ahh the ime autoconverts katakana into hiragana
 
 #InputLevel 5
 ;base
@@ -589,9 +597,12 @@ return
 Send ケ
 return
 
+;to allow proper use using an ime without conflicts
+#InputLevel 0
 :*?:アd::
 Send エ
 return
+#InputLevel 5
 
 :*?:ハd::
 Send ヘ
@@ -831,6 +842,10 @@ return
 
 ;hard
 :*?:eハ::
+Send パ
+return
+
+:*?:えハ::
 Send パ
 return
 
