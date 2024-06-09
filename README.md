@@ -20,29 +20,29 @@ A deviation I've taken from the phone layout is the softening and hardening of s
 
 Some examples for clarification:
 
-qか -> が
-qかw -> がw -> ぐ
+- qか -> が
+- qかw -> がw -> ぐ
 
-eは -> ぱ
-eはs -> ぱs -> ぽ
+- eは -> ぱ
+- eはs -> ぱs -> ぽ
 
 っ is created using 'xた' based on official IME's usage of 'x'.
 
 Combination characters can also be created by adding a 'y' to the corresponding character taking its consonant as the base and the vowel as its modifier.
 
-かy -> きゃ
-かwy -> くy -> きゅ
+- かy -> きゃ
+- かwy -> くy -> きゅ
 
 Of course this also works for soft and hard characters.
 
-qかy -> がy -> ぎゅ
-eはwy -> ぱwy -> ぷy -> ぴゅ
+- qかy -> がy -> ぎゅ
+- eはwy -> ぱwy -> ぷy -> ぴゅ
 
 
 ## Some important shortcuts
 
-Ctrl + NumLock (key on the top left of numpad) -> Toggle conversion on/off
-Ctrl + Escape -> exit application
+- Ctrl + NumLock (key on the top left of numpad) -> Toggle conversion on/off
+- Ctrl + Escape -> exit application
 
 Depending on the state of NumLock, japanese-directional-keyboard outputs either hiragana or katakana. By default, NumLock off outputs hiragana, NumLock on outputs katakana. 
 
