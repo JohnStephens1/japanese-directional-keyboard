@@ -1,5 +1,13 @@
 ## japanese-directional-keyboard
 
+### Table of Contents
+1. [What it is](#what-it-is)
+2. [How it works](#how-it-works)
+   1. [Some important shortcuts](#some-important-shortcuts)
+3. [How to Install](#how-to-install)
+5. [Support](#support)
+   1. [Donations](#donations)
+
 ### What it is
 
 japanese-directional-keyboard is aimed at mimicking the advantages of the phone layout with it's intuitive and straightforward approach to character creation while leveraging some benefits the layout and extra keys a regular computer keyboard provides.
@@ -41,7 +49,7 @@ Of course this also works for soft and hard characters.
 - eはsy -> ぱsy -> ぽy -> ぴょ
 
 
-## Some important shortcuts
+#### Some important shortcuts
 
 - Ctrl + NumLock (key on the top left of numpad) -> Toggle conversion on/off
 - Ctrl + Escape -> exit application
@@ -56,3 +64,20 @@ All you need is a working installation of AHK (Auto Hotkey) and my script provid
 If you haven't installed AHK yet, procede to the [official site](https://www.autohotkey.com/) and follow the instructions there.
 
 Afterwards, simply run the mentioned script and you're good to go.
+
+
+### Support
+
+If you enjoyed this, feel free to check out my other quality-of-life tools, all free and open-source as well, no ads and no nonsense.
+
+- _ShutDownEr_: https://github.com/JohnStephens1/ShutDownEr
+- _Timerrhymer_: https://github.com/JohnStephens1/Timerrhymer
+- _4Focus_: https://github.com/JohnStephens1/4Focus
+
+#### Donations
+
+If you found any of them useful, sharing my work with people who might profit from them would be highly appreciated.
+
+Alternatively, any and every donation would mean a lot and help me stay open-source and free.
+
+https://www.paypal.com/donate/?hosted_button_id=L4X2DFAYMJ72U
