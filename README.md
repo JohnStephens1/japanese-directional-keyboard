@@ -9,7 +9,7 @@ My design is focused on maximising intuitivity, comfort and speed for every acti
 
 The numpad acts as the input you would see on a phone.
 
-![japanese-phone-keyboard](./readme-images/jap-phone-keyboard)
+![japanese-phone-keyboard](./readme-images/jap-phone-keyboard.jpg)
 
 Without modification, each character ends in an 'a' あ sound, in other words: さかあはなたらやまわ
 
