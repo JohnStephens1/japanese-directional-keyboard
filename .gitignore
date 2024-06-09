@@ -1,0 +1,12 @@
+.idea/
+__pycache__/
+venv/
+
+.ipynb_checkpoints/
+.virtual_documents
+
+build/
+dist/
+*.spec
+
+*.bak
