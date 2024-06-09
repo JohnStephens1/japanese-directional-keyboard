@@ -11,9 +11,11 @@ The numpad acts as the input you would see on a phone.
 
 ![japanese-phone-keyboard](./readme-images/jap-phone-keyboard.jpg)
 
-Without modification, each character ends in an 'a' あ sound, in other words: さかあはなたらやまわ
+(with the beautifully depicted practical and semantic updates)
 
-On the phone, to produce characters ending in a different vowel, you can hold the key and swipe into one of the four cardinal directions to modify the character, resulting in ueoi, うえおい.
+Each key corresponds to a character ending in an 'a' あ sound, in other words: さかあはなたらやまわ
+
+On the phone, to produce characters ending in a different vowel, you can hold the key and swipe into one of the four cardinal directions to modify it, resulting in ueoi, うえおい.
 To mimick this directional change on the keyboard, follow each character by awsd, each corresponding to its direction, left up down right.
 
 A deviation I've taken from the phone layout is the softening and hardening of sounds. To achieve these, you precede the corresponding character with 'q' for softening or 'e' for hardening.
@@ -35,8 +37,8 @@ Combination characters can also be created by adding a 'y' to the corresponding 
 
 Of course this also works for soft and hard characters.
 
-- qかy -> がy -> ぎゅ
-- eはwy -> ぱwy -> ぷy -> ぴゅ
+- qかy -> がy -> ぎゃ
+- eはsy -> ぱsy -> ぽy -> ぴょ
 
 
 ## Some important shortcuts
