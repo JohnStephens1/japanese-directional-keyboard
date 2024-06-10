@@ -53,7 +53,7 @@ To improve typing comfort, while active the NumpadPlus key acts as Backspace, so
 
 #### Some important shortcuts
 
-- Ctrl + NumLock (key on the top left of numpad) -> Toggle conversion on/off
+- Ctrl + NumLock (key on the top left of numpad) -> toggle conversion on/off
 - Ctrl + Escape -> exit application
 
 Depending on the state of NumLock, japanese-directional-keyboard outputs either hiragana or katakana. By default, NumLock on outputs hiragana, NumLock off outputs katakana. 
