@@ -26,7 +26,31 @@ a i u e o x 9 + special n wo
 
 #If KeyboardOn
 
+;special
 NumpadAdd::Backspace
+
+
+#InputLevel 1
+NumpadDel::、
+NumpadDot::、
+#InputLevel 0
+
+:*?:、w::
+SendEvent ？
+return
+
+:*?:、d::
+SendEvent ！
+return
+
+:*?:、s::
+SendEvent …
+return
+
+:*?:、a::
+SendEvent 。
+return
+
 
 #InputLevel 5
 ;base
