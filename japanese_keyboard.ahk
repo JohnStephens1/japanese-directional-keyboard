@@ -81,7 +81,7 @@ SendEvent む
 return
 
 :*?:わw::
-SendEvent ー
+SendEvent ん
 return
 
 
@@ -527,6 +527,10 @@ return
 SendEvent っ
 return
 
+:*?:xな::
+SendEvent ん
+return
+
 
 
 
@@ -585,7 +589,7 @@ SendEvent ム
 return
 
 :*?:ワw::
-SendEvent ー
+SendEvent ン
 return
 
 
@@ -1029,6 +1033,10 @@ return
 ;others
 :*?:xタ::
 SendEvent ッ
+return
+
+:*?:xナ::
+SendEvent ン
 return
 
 
