@@ -43,6 +43,7 @@ return
 SendEvent ！
 return
 
+;bizarre problem that IME takes this as 'yeet current input'
 :*?:、s::
 SendEvent …
 return
@@ -54,17 +55,16 @@ return
 
 #InputLevel 5
 ;base
-NumpadPgUp::さ ;9
-NumpadUp::か ;8
-NumpadHome::あ ;7
-NumpadRight::は ;6
-NumpadClear::な ;5
-NumpadLeft::た ;4
-NumpadPgDn::ら ;3
-NumpadDown::や ;2
-NumpadEnd::ま ;1
-NumpadIns::わ ;0
-
+Numpad9::さ
+Numpad8::か
+Numpad7::あ
+Numpad6::は
+Numpad5::な
+Numpad4::た
+Numpad3::ら
+Numpad2::や
+Numpad1::ま
+Numpad0::わ
 
 
 ;instant replace hostrings aren't entitled to an inputlevel other than 0, so we get to repeat these blocks a few hundred times
@@ -566,16 +566,16 @@ return
 
 #InputLevel 5
 ;base
-Numpad9::サ
-Numpad8::カ
-Numpad7::ア
-Numpad6::ハ
-Numpad5::ナ
-Numpad4::タ
-Numpad3::ラ
-Numpad2::ヤ
-Numpad1::マ
-Numpad0::ワ
+NumpadPgUp::サ ;9
+NumpadUp::カ ;8
+NumpadHome::ア ;7
+NumpadRight::ハ ;6
+NumpadClear::ナ ;5
+NumpadLeft::タ ;4
+NumpadPgDn::ラ ;3
+NumpadDown::ヤ ;2
+NumpadEnd::マ ;1
+NumpadIns::ワ ;0
 
 
 
