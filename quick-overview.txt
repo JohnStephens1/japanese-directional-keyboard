@@ -11,9 +11,12 @@ e -> hard
 
 special:
 xた -> っ
+xな -> ん
+
+NumpadPlus -> Backspace (delete last character)
 
 
-others:
+shortcuts:
 NumLock on/off -> hiragana/katakana toggle
 Ctrl + NumLock -> conversion toggle
 Ctrl + Escape -> exit application

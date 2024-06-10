@@ -36,7 +36,8 @@ Some examples for clarification:
 - eは -> ぱ
 - eはs -> ぱs -> ぽ
 
-っ is created using 'xた' based on official IME's usage of 'x'.
+っ is created using 'xた' based on official IME's usage of 'x'. \
+ん can also be created using 'xな' as well as the usual 'わw'.
 
 Combination characters can also be created by adding a 'y' to the corresponding character taking its consonant as the base and the vowel as its modifier.
 
@@ -48,6 +49,7 @@ Of course this also works for soft and hard characters.
 - qかy -> がy -> ぎゃ
 - eはsy -> ぱsy -> ぽy -> ぴょ
 
+To improve typing comfort, while active the NumpadPlus key acts as Backspace, so you don't have to move your hands whenever you have a typo.
 
 #### Some important shortcuts
 
