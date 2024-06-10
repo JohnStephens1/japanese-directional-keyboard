@@ -25,6 +25,9 @@ a i u e o x 9 + special n wo
 
 
 #If KeyboardOn
+
+NumpadAdd::Backspace
+
 #InputLevel 5
 ;base
 NumpadPgUp::さ ;9
